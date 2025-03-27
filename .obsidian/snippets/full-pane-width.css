@@ -1,0 +1,4 @@
+/* Fill width with tab pane*/
+body {
+    --tab-stacked-pane-width: 100%;
+}
