@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "overview.md",
+                "file": "plugin-reference/Callout Reference.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "overview"
+              "title": "Callout Reference"
             }
           }
         ],
@@ -173,10 +173,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "3a1ee50fc64a25d9",
+  "active": "2d7aea060c216ee1",
   "lastOpenFiles": [
-    "guidelines.md",
+    "plugin-reference/Templater Cheatsheet.md",
+    "plugin-reference/Callout Reference.md",
+    "plugin-reference/Callouts.md",
+    "plugin-reference/Dataview Cheatsheet.md",
     "overview.md",
+    "plugin-reference",
+    "guidelines.md",
     "templates/daily note.md",
     "Welcome.md",
     "templates",
