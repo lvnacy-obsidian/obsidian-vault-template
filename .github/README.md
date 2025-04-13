@@ -66,6 +66,14 @@ religiously to orient myself in the explorer at a glance. [Tasks][tasks] helps
 me stay on top of things, allowing me to add tasks anywhere and display them 
 in a central location.
 
+I've started working on a reference directory for ease of access to frequently 
+used functions and operations in the included plugins. At the moment, there is 
+- a Dataview Cheatsheet based on [seburbandev's][seburbandev] [original][dataview-cs-orig];
+- a Templater Cheatsheet based on [Ambi93's][ambi93] [Templater User Guide][templater-cheatsheet]; and
+- a Callout Reference, pulled from [this forum post][callout-post].
+
+More will be added as I generate useful docs from various sources.
+
 [Back to the top](#contents)
 
 The other plugins are included to support this modular system I'm building, 
@@ -131,6 +139,10 @@ if you have any questions!<br>
 [minimal]: https://github.com/kepano/obsidian-minimal
 [minimal-settings]: https://github.com/kepano/obsidian-minimal-settings
 [dataview]: https://github.com/blacksmithgu/obsidian-dataview
+[dataview-cheatsheet]: https://github.com/ephemeralrogue/dataview-cheatsheet
+[dataview-cs-orig]: https://github.com/seburbandev/obsidian-dataview-cheatsheet
+[templater-cheatsheet]: https://github.com/Ambi93/Obsidian-Sync/blob/main/Comprehensive%20User%20Guide%20for%20Templater%20in%20Obsidian.md
+[callout-post]: https://forum.obsidian.md/t/all-callout-styles-for-reference/36102
 [sortspec]: https://github.com/SebastianMC/obsidian-custom-sort
 [icons]: https://github.com/FlorianWoelki/obsidian-iconize
 [pdfplus]: https://github.com/RyotaUshio/obsidian-pdf-plus
@@ -140,3 +152,5 @@ if you have any questions!<br>
 [submodules]: https://git-scm.com/book/en/v2/Git-Tools-Submodules
 [bluesky]: https://bsky.app/profile/lvnacy.xyz
 [discord]: https://discord.gg/nh7mqGEfbw
+[seburbandev]: https://github.com/seburbandev
+[ambi93]: https://github.com/Ambi93
