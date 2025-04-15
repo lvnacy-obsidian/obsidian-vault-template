@@ -1,0 +1,35 @@
+/**
+ * Folder Header CSS Snippet
+ * Create Headers to establish folder categories in the File Explorer
+ * 
+ * @snippet-name Folder Headers
+ * @snippet-description Establish folder categories
+ * @snippet-version 1.6.5
+ * @snippet-author Corellan and modified by rushikesh
+ * @snippet-source https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets/blob/Collection/Snippets/File%20explorer%20styling%20-%20Folder%20headers.md
+ *
+**/
+
+.nav-files-container > div > .nav-folder::after {
+	position: relative;
+	left: var(--layout-margin);
+	font-size: 11px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: var(--text-muted);
+	font-size: var(--font-adaptive-smallest);
+}
+  
+  
+.nav-files-container > div > .nav-folder:nth-child(3)::after {
+	content: "Private";
+}
+  
+.nav-files-container > div > .nav-folder:nth-child(7)::after {
+	content: "Assets";
+}
+  
+.nav-files-container > div > .nav-folder:nth-child(9)::after {
+	content: "Sorting";
+}

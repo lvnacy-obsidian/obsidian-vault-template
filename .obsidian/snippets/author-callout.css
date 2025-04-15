@@ -1,0 +1,32 @@
+/**
+ * Author Callout CSS Snippet
+ * This snippet styles a callout box for author information in Obsidian.
+ * It includes a user icon, a title, and a content area with a shadow effect.
+ * 
+ * @snippet-name Author Callout
+ * @snippet-description Styles a callout box for author information.
+ * @snippet-version 1.0
+ * @snippet-author FireIsGood
+ * @snippet-source https://discord.com/channels/686053708261228577/702656734631821413/1096863934100807701
+ * 
+**/
+
+.callout[data-callout="author"] {
+	display: flex;
+	flex-direction: column-reverse;
+	--callout-icon: user;
+	--callout-color: transparent;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+	border-left: solid;
+  }
+  
+  .callout[data-callout="author"] > .callout-title {
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 8px;
+	font-style: italic;
+  }
+  
+  .callout[data-callout="author"] .callout-content p {
+	margin-top: 0;
+  }

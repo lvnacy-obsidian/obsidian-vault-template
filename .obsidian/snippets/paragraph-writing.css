@@ -1,6 +1,17 @@
-/* paragraph-writing class indents first lines of paragraphs, and adds space after paragraphs */
+/**
+ * Paragraph Writing CSS Snippet
+ * This class indents the first line of each paragraph, 
+ * and adds space after each paragraph
+ * 
+ * @snippet-name Paragraph Writing
+ * @snippet-description Indent paragraph and create a space between paragraphs.
+ * @snippet-version 1.0
+ * @snippet-author Dawni
+ * @snippet-source https://forum.obsidian.md/t/tabbing-paragraphs-and-single-space-between-them-so-simple-yet-im-lost-sos/99492/3
+ * 
+**/
 
-/* editing views */
+/* editing view */
 .markdown-source-view.paragraph-writing .cm-line {
 	padding-bottom: 1.5em;
 	text-indent: 2em;

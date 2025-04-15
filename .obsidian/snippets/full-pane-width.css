@@ -1,4 +1,17 @@
-/* Fill width with tab pane*/
+/**
+ * Fill Width with Tab Pane CSS Snippet
+ * This snippet corrects tab width functionality to extend the full width  of 
+ * the pane where a theme limits the width of the tab pane when using stacked 
+ * tabs.
+ * 
+ * @snippet-name Fill Width with Tab Pane
+ * @snippet-description Extend a tab to full pane width when using stacked tabs.
+ * @snippet-version 1.0
+ * @snippet-author DavidMcKidev
+ * @snippet-source https://forum.obsidian.md/t/tab-stacks-sliding-mode-add-option-to-show-only-one-tab-a-time-with-two-collapsed-stacks-on-the-sides-full-width-tab/45036/10
+ * 
+**/
+
 body {
     --tab-stacked-pane-width: 100%;
 }
