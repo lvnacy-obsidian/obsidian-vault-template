@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "overview.md",
+                "file": "plugin-reference/plugin-reference.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "overview"
+              "title": "plugin-reference"
             }
           }
         ],
@@ -191,6 +191,7 @@
   },
   "active": "7002422d50041eb1",
   "lastOpenFiles": [
+    "overview.md",
     "guidelines.md",
     "plugin-reference/plugin-reference.md",
     "CSS Snippets to Add.md",
@@ -198,7 +199,6 @@
     "plugin-reference/Callout Reference.md",
     "plugin-reference/Templater Cheatsheet.md",
     "plugin-reference/Callouts.md",
-    "overview.md",
     "plugin-reference",
     "templates/daily note.md",
     "Welcome.md",
