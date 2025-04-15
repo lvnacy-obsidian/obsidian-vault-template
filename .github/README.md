@@ -48,13 +48,12 @@ This vault comes preloaded with one theme and eight plugins:
 
 - [Minimal][minimal]
 - [Minimal Theme Settings][minimal-settings]
-- [Dataview][dataview]
 - [Custom File Explorer sorting][sortspec]
+- [Dataview][dataview]
 - [Iconize][icons]
 - [PDF++][pdfplus]
-- [Note Definitions][note-defs]
-- [Frontmatter Markdown Links][frontmatter-links]
 - [Tasks][tasks]
+- [Templater][templater]
 
 I typically like to setup up each vault with a different theme to ease 
 context-switching, but I love the simplicity of [Minimal][minimal] as a 
@@ -64,7 +63,25 @@ starting point, hence why it's included.
 [Custom File Explorer sorting][sortspec] and [Iconize][icons] I use 
 religiously to orient myself in the explorer at a glance. [Tasks][tasks] helps 
 me stay on top of things, allowing me to add tasks anywhere and display them 
-in a central location.
+in a central location. [Templater][templater] is included as it offers a host 
+of features with regard to templates.
+
+The idea here is not to pack the vault with all the popular plugins, but 
+rather be up and running with what I would normally be installing anyway. Some 
+vaults I have make use of the [Kanban][kanban] plugin, others do not. Rather 
+than have to manage the removal of plugins, I prefer to add them as needed. 
+The ones included here are used in all vaults I create.
+
+There are few CSS snippets that have been added to extend basic functionality:
+- *callout-grid-2.1*, written by [Wendystraite][wendystraite] from the 
+[Obsidian Forums](https://forum.obsidian.md/t/css-snippet-to-display-markdown-in-grids-without-html/95117),
+which adds columns and other visual alignment options to notes,
+- *full-pane-width*, written by DavidMcKidev from the 
+[Obsidian Forums](https://forum.obsidian.md/t/tab-stacks-sliding-mode-add-option-to-show-only-one-tab-a-time-with-two-collapsed-stacks-on-the-sides-full-width-tab/45036/10), 
+which improves stacked tab pane width, and
+- *paragraph-writing*, written by Dawni from the 
+[Obsidian Forums](https://forum.obsidian.md/t/tabbing-paragraphs-and-single-space-between-them-so-simple-yet-im-lost-sos/99492/3), 
+which provides indentation and spacing between paragraphs.
 
 I've started working on a reference directory for ease of access to frequently 
 used functions and operations in the included plugins. At the moment, there is 
@@ -98,29 +115,11 @@ play.<br>
 > [git submodules][submodules]
 
 ### Example: The Library
-*At the time of this writing, the library module template hasn't been created; 
-I will update this README with a link to it upon its creation.*
-
-The Library module is designed to organize all manner of documents in a local 
+The [Library module][library] is designed to organize all manner of documents in a local 
 vault. This is where [PDF++][pdfplus] shines, providing extended support for 
-PDF documents included in the vault. The library encourages the development of 
-a built-in glossary, hence the [Note Definitions][note-defs] plugin. 
-[Frontmatter Markdown Links][frontmatter-links] makes creating links between 
-notes and documents in the properties a breeze. Having these already built in 
+PDF documents included in the vault. Having this already built in 
 to the vault makes plugging context-specific libraries simple. All the wiring 
 is in place, just gotta plug the damn thing in.
-
-[Back to the top](#contents)
-
-<a id='extras'></a>
-<div align='center'>
-    <h1>some extras</h1>
-</div>
-Well, one extra, at the moment. Due to the frustrating case of stacked tab 
-panes not sliding over all the way in a number of themes, I've included a css 
-snippet to address this. Other tweaks will be enumerated here as I come across 
-the need for them and develop or include them.<br>
-<br>
 
 [Back to the top](#contents)
 
@@ -149,8 +148,12 @@ if you have any questions!<br>
 [note-defs]: https://github.com/dominiclet/obsidian-note-definitions
 [frontmatter-links]: https://github.com/mnaoumov/obsidian-frontmatter-markdown-links
 [tasks]: https://github.com/obsidian-tasks-group/obsidian-tasks
+[templater]: https://github.com/SilentVoid13/Templater
+[kanban]: https://github.com/mgmeyers/obsidian-kanban
 [submodules]: https://git-scm.com/book/en/v2/Git-Tools-Submodules
+[library]: https://github.com/lvnacy-obsidian/obsidian-library-module
 [bluesky]: https://bsky.app/profile/lvnacy.xyz
 [discord]: https://discord.gg/nh7mqGEfbw
 [seburbandev]: https://github.com/seburbandev
 [ambi93]: https://github.com/Ambi93
+[wendystraite]: https://github.com/wendystraite

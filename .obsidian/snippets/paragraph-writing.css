@@ -1,0 +1,13 @@
+/* paragraph-writing class indents first lines of paragraphs, and adds space after paragraphs */
+
+/* editing views */
+.markdown-source-view.paragraph-writing .cm-line {
+	padding-bottom: 1.5em;
+	text-indent: 2em;
+	}
+	
+/* reading view */
+.paragraph-writing p {
+	text-indent: 2em;
+	white-space: pre-line;
+}
