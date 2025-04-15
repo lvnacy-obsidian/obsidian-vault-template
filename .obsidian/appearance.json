@@ -1,6 +1,7 @@
 {
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
-    "full-pane-width"
+    "full-pane-width",
+    "multicolumn-notes"
   ]
 }
