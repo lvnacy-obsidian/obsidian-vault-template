@@ -1,10 +1,14 @@
-# Summary
+---
+docs: https://blacksmithgu.github.io/obsidian-dataview/
+---
+
+# summary
 
 This cheatsheet provides a handy reference guide for writing queries using **Dataview Query Language** (**DQL**) in the [dataview][dataview] plugin for [Obsidian.md][obsidian] note-taking app.
 
 This is copied from an [updated version][cheatsheet updated] of the [obsidian-dataview-cheatsheet][cheatsheet main].
 
-# Table of Contents
+# contents
 
 - [Query Commands](#query-cheatsheet)
   - [LIST](#list)
@@ -36,7 +40,7 @@ This is copied from an [updated version][cheatsheet updated] of the [obsidian-da
 	- [JSON](#json)
 	- [YAML](#yaml)
 
-# Query Cheatsheet
+# query cheatsheet
 
 ## LIST
 
@@ -68,7 +72,7 @@ FROM
 
 [Back to Contents](#table-of-contents)
 
-# Data Commands
+# data commands
 
 - [FROM](#from)
 - [WHERE](#where)
@@ -384,7 +388,7 @@ FROM
 
 [Back to Contents](#table-of-contents)
 
-# Metadata Reference
+# metadata reference
 
 Obsidian allows YAML and JSON for metadata.
 
