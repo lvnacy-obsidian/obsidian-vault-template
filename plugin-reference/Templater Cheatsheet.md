@@ -1,5 +1,6 @@
 ---
 source: https://raw.githubusercontent.com/Ambi93/Obsidian-Sync/refs/heads/main/Comprehensive%20User%20Guide%20for%20Templater%20in%20Obsidian.md
+docs: https://silentvoid13.github.io/Templater/introduction.html
 ---
 
 # introduction
@@ -55,9 +56,10 @@ Templater is a powerful templating language for Obsidian that allows users to in
 
 ## dynamic commands
 
-- Add a `+` after the opening tag (`<%+`) to execute commands in preview mode.
+- Add a `+` after the opening tag (`< %+`) to execute commands in preview mode. *note: the bracket and the percent symbol should not be separated. They are separated here to keep the rest of this note from being fucked up.*
 
 [[#contents]] 
+
 # key modules and functions
 
 ## config module (`tp.config`)
@@ -175,6 +177,15 @@ Execute system commands and retrieve their output:
    ```
 
 [[#contents]] 
+
+# additional resources
+
+Here are some links to blog and forum posts, as well as gists to provide context on how to build out more complex automation using the Templater plugin.
+
+- [Templater Snippets](https://zachyoung.dev/posts/templater-snippets) - a great amount of snippets with brief explanations. Useful in understanding how to make use of many of the features of the Templater plugin
+- [Momentjs Docs](https://momentjs.com/docs/#/manipulating/subtract/) - momentjs comes packed with Templater for date manipulations
+- [Obsidian Scripts by Mearman](https://gist.github.com/Mearman/ba5b1bcf746b4e04d12865dc09402016#file-mutate_frontmatter-js) - github gist of a smattering of obsidian scripts for use with Templater
+
 # conclusion
 
 This guide provides a comprehensive overview of the Templater plugin for Obsidian. By understanding and utilizing the functions and examples provided, you can create powerful templates to automate tasks and enhance your note-taking experience.
