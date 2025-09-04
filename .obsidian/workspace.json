@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "778c912e3003c450",
+        "id": "fd7f5bd2b9b2b841",
         "type": "tabs",
         "children": [
           {
-            "id": "2d7aea060c216ee1",
+            "id": "24a7718c2ebb0f50",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/library record.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "library record"
+              "title": "New tab"
             }
           }
         ],
@@ -161,6 +157,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -171,25 +168,26 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-kanban:Create new board": false,
-      "calendarium:Open Calendarium": false
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "2d7aea060c216ee1",
+  "active": "24a7718c2ebb0f50",
   "lastOpenFiles": [
-    "guidelines.md",
     "overview.md",
-    "plugin-reference/Callout Reference.md",
-    "plugin-reference/Dataview Cheatsheet.md",
-    "plugin-reference/Templater Cheatsheet.md",
-    "plugin-reference/plugin-reference.md",
-    "CHANGELOG",
-    "templates/daily note.md",
+    "main.css",
+    "main.css.map",
+    "obsidian tooling reference/obsidian tooling reference.md",
+    "guidelines.md",
     "templates/library record.md",
+    "WARP.md",
+    "obsidian tooling reference/Templater Cheatsheet.md",
+    "obsidian tooling reference/Dataview Cheatsheet.md",
+    "obsidian tooling reference/Callout Reference.md",
+    "templates/daily note.md",
+    "CHANGELOG",
     "CSS Snippets to Add.md",
     "plugin-reference/Callouts.md",
-    "plugin-reference",
+    "obsidian tooling reference",
     "Welcome.md",
     "templates",
     "CHANGELOG"

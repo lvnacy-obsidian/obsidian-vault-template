@@ -2,7 +2,8 @@
 source: https://raw.githubusercontent.com/Ambi93/Obsidian-Sync/refs/heads/main/Comprehensive%20User%20Guide%20for%20Templater%20in%20Obsidian.md
 docs: https://silentvoid13.github.io/Templater/introduction.html
 ---
-
+%% templater is going away. Remove this file and update with Codescript Toolkit
+reference when LVNACY codescript library is ready %%
 # introduction
 
 Templater is a powerful templating language for Obsidian that allows users to insert variables, execute functions, and run JavaScript code within their notes. This guide aims to provide you with the necessary knowledge to become a Templater power user, covering installation, key concepts, and practical examples.

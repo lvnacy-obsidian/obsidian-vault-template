@@ -1,0 +1,3 @@
+[submodule "scripts"]
+	path = .obsidian/js
+	url = git@github.com:lvnacy-obsidian/scripts.git

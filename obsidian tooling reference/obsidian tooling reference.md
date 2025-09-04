@@ -10,6 +10,8 @@ Seburbandev's [Dataview Cheatsheet](https://github.com/seburbandev/obsidian-data
 [[Templater Cheatsheet]] 
 Ambi93's [Comprehensive User Guide for Templater in Obsidian.md](https://github.com/Ambi93/Obsidian-Sync/blob/main/Comprehensive%20User%20Guide%20for%20Templater%20in%20Obsidian.md) 
 
+[CSS in Obsidian on the forums](https://forum.obsidian.md/t/obsidian-css-inspector-workflow/58178) 
+
 ## css snippets
 *author-callout*
 FireIsGood from [Discord](https://discord.com/channels/686053708261228577/702656734631821413/1096863934100807701) 

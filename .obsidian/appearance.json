@@ -3,5 +3,6 @@
   "enabledCssSnippets": [
     "full-pane-width",
     "multicolumn-notes"
-  ]
+  ],
+  "showRibbon": false
 }
