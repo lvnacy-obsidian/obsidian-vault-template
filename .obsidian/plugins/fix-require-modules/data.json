@@ -1,0 +1,8 @@
+{
+  "invocableScriptsFolder": "commands",
+  "mobileChangesCheckingIntervalInSeconds": 30,
+  "modulesRoot": ".obsidian/js",
+  "shouldHandleProtocolUrls": false,
+  "shouldUseSyncFallback": false,
+  "startupScriptPath": ""
+}

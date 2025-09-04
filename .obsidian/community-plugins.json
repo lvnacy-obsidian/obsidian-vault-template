@@ -4,9 +4,9 @@
   "obsidian-icon-folder",
   "pdf-plus",
   "obsidian-minimal-settings",
-  "templater-obsidian",
   "folder-notes",
   "obsidian-style-settings",
   "obsidian-kanban",
-  "calendarium"
+  "color-palette",
+  "fix-require-modules"
 ]

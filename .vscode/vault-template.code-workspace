@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"workbench.preferredDarkColorTheme": "Nord Flat",
+		"workbench.preferredLightColorTheme": "Nord Light",
+		"window.autoDetectColorScheme": true,
+		"[css]": {
+			"editor.wordWrap": "off"
+		},
+		"[javascript]": {
+			"editor.defaultFormatter": "vscode.typescript-language-features"
+		},
+		"[markdown]": {
+			"editor.defaultFormatter": "vscode.markdown-language-features"
+		},
+		"liveSassCompile.settings.formats": [
+			{
+				"format": "expanded",
+				"extensionName": ".css",
+				"savePath": "/.obsidian/js",
+				"savePathReplacementPairs": null
+			}
+		],
+	}
+}
